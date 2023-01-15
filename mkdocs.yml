@@ -11,11 +11,11 @@ theme:
 plugins:
   - offline
   
-nav:
- - 'index.md'
- - 'authentication.md'
- - 'ratelimiting.md'
- - 'endpoints.md'
+#nav:
+ #- 'index.md'
+ #- 'authentication.md'
+ #- 'ratelimiting.md'
+ #- 'endpoints.md'
  
 extra:
  generator: false
