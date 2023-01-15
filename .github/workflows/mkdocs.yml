@@ -15,4 +15,7 @@ jobs:
           python-version: 3.x
       - run: pip install mkdocs-material 
       - run: mkdocs gh-deploy --force
+      - name: Create CNAME
+        run: |
+          echo "docs.gog-games.com" > CNAME
 
