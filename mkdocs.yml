@@ -4,19 +4,10 @@ theme:
  name: material
  font:
   text: Lato
- features:
-  - navigation.instant
-  - toc.integrate
 
 plugins:
   - offline
   
-#nav:
- #- 'index.md'
- #- 'authentication.md'
- #- 'ratelimiting.md'
- #- 'endpoints.md'
- 
 extra:
  generator: false
  homepage: https://docs.gog-games.com
