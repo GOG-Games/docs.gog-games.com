@@ -1,0 +1,30 @@
+site_name: API Documentation
+
+theme:
+ name: material
+ font:
+  text: Lato
+ features:
+  - navigation.instant
+  - toc.integrate
+
+plugins:
+  - offline
+  
+nav:
+ - 'index.md'
+ - 'authentication.md'
+ - 'ratelimiting.md'
+ - 'endpoints.md'
+ 
+extra:
+ generator: false
+ homepage: https://docs.gog-games.com
+
+extra_css:
+ - stylesheets/extra.css
+ 
+markdown_extensions:
+ - admonition
+ - pymdownx.details
+ - pymdownx.superfences
