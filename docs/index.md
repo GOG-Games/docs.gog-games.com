@@ -1,6 +1,8 @@
+---
 hide:
   - navigation
   - toc
+---
 
 # Overview
 
