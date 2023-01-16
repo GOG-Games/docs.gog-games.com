@@ -1,3 +1,7 @@
+hide:
+  - navigation
+  - toc
+  - 
 # Overview
 
 The GOG Games API allows you to programmacticly interact with the site with HTTPS requests and JSON responses. Access will require authentication with an API key which may be obtained by donating for a Basic or Pro account. 
