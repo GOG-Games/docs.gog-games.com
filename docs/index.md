@@ -6,7 +6,7 @@ hide:
 
 # Overview
 
-The GOG Games API allows you to programmacticly interact with the site with HTTPS requests and JSON responses. Access will require authentication with an API key which may be obtained by donating for a Basic or Pro account. 
+The GOG Games API allows you to programmacticly interact with the site with HTTPS requests and JSON responses. Access will require authentication with an API key which may be obtained by donating. 
 
 To learn more about donating and acquiring an account, visit: [https://gog-games.com/donate](https://gog-games.com/donate)
 
@@ -26,7 +26,7 @@ For the API to make a valid response, it requires the request to contain an API 
 
 # Rate Limiting
 
-A rate limit is enforced on the API to prevent abuse and discourage the sharing of API keys. Each account tier is allowed one active API key at any given time and each key may make x queries per second.
+A rate limit is enforced on the API to prevent abuse and discourage the sharing of API keys. Each account is allowed one active API key at any given time and each key may make x queries per second.
 
 ???+ info
 
